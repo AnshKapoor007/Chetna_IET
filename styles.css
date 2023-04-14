@@ -6,7 +6,7 @@
   --nav-width: 68px;
   --first-color: #000000;
   --first-color-light: #afa5d9;
-  --white-color: #0084b5;
+  --white-color: #007bff;
   --white--color2: #fff;
   --body-font: "Nunito", sans-serif;
   --normal-font-size: 1rem;
@@ -197,7 +197,10 @@ a {
   font-weight: bold;
 }
 
-#home, #about, #events, #sponsors {
+#home,
+#about,
+#events,
+#sponsors {
   scroll-margin-top: 60px;
 }
 
@@ -217,19 +220,18 @@ a {
     padding: 0 2rem 0 calc(var(--nav-width) + 2rem);
   }
 
-  
-.footer-icon-div {
-  text-align: left;
-}
+  .footer-icon-div {
+    text-align: left;
+  }
 
-.footer-icon {
-  margin-top: 20px;
-}
+  .footer-icon {
+    margin-top: 20px;
+  }
 
-.footer-text {
-  text-align: right;
-  margin-top: 10px !important;
-}
+  .footer-text {
+    text-align: right;
+    margin-top: 10px !important;
+  }
 
   .header_img {
     width: 40px;
@@ -265,7 +267,7 @@ a {
   }
 }
 
-.bgVideo {
+#selector  {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -345,6 +347,10 @@ h5 {
   font-family: cursive;
 }
 
+h1 {
+  font-size: 40px !important;
+}
+
 .one h1 {
   padding-top: 20px;
   padding-bottom: 5px;
@@ -368,21 +374,6 @@ h5 {
   background: rgba(rgb(41, 58, 79) 0.4);
 }
 
-.register-button {
-  display: block;
-  width: max-content;
-  padding: 10px 20px;
-  border-radius: 30px;
-  background-color: var(--white-color);
-  color: white;
-}
-
-.button-link {
-  display: flex;
-  align-items: center;
-  font-size: 30px;
-}
-
 .social {
   width: 100%;
 }
@@ -395,6 +386,11 @@ h5 {
 
 .hideWhenSizeChange {
   display: none;
+}
+
+.registerBtn {
+  height: 40px;
+  width: 100px;
 }
 
 @media screen and (min-width: 991px) {
@@ -410,5 +406,4 @@ h5 {
     display: block !important;
     text-align: center;
   }
-
 }
