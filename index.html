@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chetna</title>
+  </head>
+  <body>
+    <!-- Background Video -->
+    <video autoplay muted loop class="bgVideo">
+      <source src="./resources/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Navbar -->
+    <div id="body-pd">
+      <header class="header" id="header">
+        <div class="header_toggle" onClick="toggleNavbar()">
+          <i class="bx bx-menu" id="header-toggle"></i>
+        </div>
+      </header>
+      <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+          <div>
+            <div class="nav_logo">
+              <i class="bx bx-layer nav_logo-icon"></i>
+              <span class="nav_logo-name">Chetna</span>
+            </div>
+            <div class="nav_list">
+              <a href="#home" class="nav_link active" id="item0">
+                <i class="bx bx-home nav_icon"></i>
+                <span class="nav_name">Home</span>
+              </a>
+              <a href="#about" class="nav_link" id="item1">
+                <i class="bx bx-layer nav_icon"></i>
+                <span class="nav_name">About</span>
+              </a>
+              <a href="#events" class="nav_link" id="item2">
+                <i class="bx bxs-calendar-event nav_icon"></i>
+                <span class="nav_name">Events</span>
+              </a>
+              <a href="#sponsors" class="nav_link" id="item2">
+                <i class="bx bx-user nav_icon"></i>
+                <span class="nav_name">Sponsors</span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Dashboard -->
+    <div class="dashboard" id="dashboard">
+      <!-- Home -->
+      <div class="home main section row justify-content-center" id="home">
+        <div class="col-lg-6">
+          <div class="home-description home-title">
+            <h1 class="home-heading">Chetna</h1>
+            <h3>Version 20.23</h3>
+          </div>
+          <div class="home-description text">
+            <p>
+              Welcome to <span class="chetna"> Chetna</span>. A fest organised
+              by the students of MCA from IET, lucknow.
+            </p>
+            <div class="register-button button">
+              <a href="" class="button-link"
+                >Register<i class="bx bx-right-arrow-alt right-arrow"></i>
+              </a>
+            </div>
+            <span class="w3-text-white social" style="margin-top: 050px">
+              <p>Follow us on Social media</p>
+              <div class="w3-margin-top">
+                <a href="#"> <i class="bx bxl-facebook icons"></i></a>
+                <a href="#"><i class="bx bxl-linkedin icons"></i></a>
+                <a href="#"><i class="bx bxl-instagram icons"></i></a>
+                <a href="#"><i class="bx bxl-twitter icons"></i></a>
+              </div>
+            </span>
+          </div>
+        </div>
+        <div class="main-image col-lg-6 hideWhenSizeChange">
+          <div class="home-img">
+            <img src="./resources/chetna_withoutBg.png" alt="Chetna Logo" />
+          </div>
+        </div>
+      </div>
+
+      <!-- About -->
+      <div class="about main" id="about">
+        <div class="one">
+          <h1>About</h1>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            eveniet id, deserunt accusamus consectetur, quam alias sapiente
+            dignissimos iusto explicabo, voluptatibus libero quo? Totam soluta,
+            pariatur suscipit libero laborum rem. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Reprehenderit explicabo dolores, eum
+            dolorum magnam illum ea natus, expedita quos nobis atque temporibus
+            ipsum nulla, eos quae sint sequi vitae vero.
+          </div>
+          <div class="col-lg-6 hideWhenSizeChange">
+            <img src="" alt="" />
+            <p>About Image here</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Events -->
+      <div class="events" id="events">
+        <div class="one">
+          <h1>Events</h1>
+        </div>
+        <div class="accordion row gx-0 align-content-center">
+          <div class="col-lg-6">
+            <div class="item">
+              <p class="text">Day 1<i class="bx bx-chevron-down icon"></i></p>
+              <div class="hidden-box">
+                <ul>
+                  <li>
+                    <div class="eventTitle">Melodie Artistica</div>
+                    <div class="eventDesc">
+                      The Rangoli making competition, in which students will
+                      showcase their creativity and attachment with their
+                      culture.
+                    </div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">Aces of Development</div>
+                    <div class="eventDesc">
+                      This would be a contest demanding the participants to
+                      design a webpage on their own, the best selected designers
+                      would be awarded.
+                    </div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">Chess</div>
+                    <div class="eventDesc">
+                      This is going to be a time-based, knockout-chess
+                      tournament in which individuals can participate.
+                    </div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">Velorant</div>
+                    <div class="eventDesc">Online Gaming competition.</div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">Technodium</div>
+                    <div class="eventDesc">
+                      This would be a technical quizzing contest.
+                    </div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">ColoursHut</div>
+                    <div class="eventDesc">
+                      The Painting competition, for the students to relieve
+                      stress and give encouragement to creativity.
+                    </div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">BGMI/Free Fire</div>
+                    <div class="eventDesc">Online Gaming competition.</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="item">
+              <p class="text">Day 2<i class="bx bx-chevron-down icon"></i></p>
+
+              <div class="hidden-box">
+                <ul>
+                  <li>
+                    <div class="eventTitle">Code-A-Thon</div>
+                    <div class="eventDesc">
+                      This would be a Data Structure and Algorithms coding
+                      contest.
+                    </div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">Walk-In-Style</div>
+                    <div class="eventDesc">
+                      This is a ramp walk event, In which the participants will
+                      show their fashion sense and style.
+                    </div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">Tug of War</div>
+                    <div class="eventDesc">
+                      Two teams against each other in a test of strength: teams
+                      pull on opposite ends of a rope, with the goal being to
+                      bring the rope a certain distance in one direction against
+                      the force of the opposing team's pull.
+                    </div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">Debug Your Soul</div>
+                    <div class="eventDesc">
+                      This is a code debugging round in which the participants
+                      need to resolve the errors that are existing in the code.
+                      The faster, the better. Accuracy would also be a pinpoint.
+                    </div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">Scavenger-Hunt</div>
+                    <div class="eventDesc">
+                      Treasure hunt event within the college building &
+                      auditorium. This will be a team event and the team(4-5
+                      members) which finds the assigned places according to
+                      hints provided.
+                    </div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">Express your Hunar</div>
+                    <div class="eventDesc">
+                      This is a series of events consisting of:
+                      <ol>
+                        <li>Mimicry</li>
+                        <li>Stand-Up Comedy</li>
+                        <li>Monologues and open-mic</li>
+                        <li>Instrumentals</li>
+                        <li>Storytelling</li>
+                        <li>Dance</li>
+                        <li>Singing, etc.</li>
+                      </ol>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">Award Ceremony</div>
+                    <div class="eventDesc">
+                      Award distribution to the winners by the Faculty.
+                      Distribution of trophy to the alumni and certificate
+                      distribution.
+                    </div>
+                  </li>
+                  <li>
+                    <div class="eventTitle">Music Night</div>
+                    <div class="eventDesc">
+                      A Night with Musical Instruments where everyone can dance
+                      and feel the jest of fest celebration.
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sponsors -->
+      <div class="sponsors" id="sponsors">
+        <div class="one">
+          <h1>Sponsors</h1>
+        </div>
+        <div class="accordion">
+          <div class="itemType2">
+            <div class="row justify-content-center">
+              <img
+                class="col-6 fixedHeight"
+                src="./resources/SBI2.f0778d0591f273e5034d.png"
+                alt="Italian Trulli"
+              />
+            </div>
+          </div>
+          <div class="itemType2">
+            <div class="row justify-content-center">
+              <img
+                class="col-6 fixedHeight"
+                src="./resources/monster.30e2cfc765590056ead5.png"
+                alt="Italian Trulli"
+              /><img
+                class="col-6 fixedHeight"
+                src="./resources/qualcomm.c593ff02fabf80462e1f.png"
+                alt="Italian Trulli"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer row gx-0" id="footer">
+        <div class="col-md-6 footer-icon-div">
+          <i class="bx bxl-facebook footer-icon"></i>
+          <i class="bx bxl-linkedin footer-icon"></i>
+          <i class="bx bxl-instagram footer-icon"></i>
+          <i class="bx bxl-twitter footer-icon"></i>
+        </div>
+        <div class="col-md-6 footer-text">IET Lucknow, Uttar Pradesh-226001<br>Created by - Tauheed Alam</div>
+      </footer>
+    </div>
+    <script>
+      const toggleNavbar = () => {
+        const toggle = document.getElementById("header-toggle"),
+          nav = document.getElementById("nav-bar"),
+          bodypd = document.getElementById("body-pd"),
+          headerpd = document.getElementById("header"),
+          footerpd = document.getElementById("footer"),
+          dashboard = document.getElementById("dashboard");
+        nav.classList.toggle("show");
+        toggle.classList.toggle("bx-x");
+        bodypd.classList.toggle("body-pd");
+        headerpd.classList.toggle("body-pd");
+        dashboard.classList.toggle("body-pd");
+        footerpd.classList.toggle("body-pd");
+      };
+      const menuItems = document.querySelectorAll(".nav_link");
+      menuItems.forEach((item) => {
+        item.addEventListener("click", () => {
+          menuItems.forEach((mItem) => mItem.classList.remove("active"));
+          item.classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>
